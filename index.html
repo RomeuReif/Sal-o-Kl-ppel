@@ -1,0 +1,286 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Salão Klöppel</title>
+
+    <meta name="description" content="Barbearia Salão Klöppel disponibiliza serviços de qualidade com preços acessiveis, venha conferir!">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Zilla+Slab:ital,wght@0,300;0,400;0,600;0,700;1,600&display=swap" rel="stylesheet">
+
+    <!-- CSS Bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+
+    <!--CSS Modificados-->
+
+    <style>
+        body {
+            font-family: 'Zilla Slab', serif;
+            background-color: #030612;
+        }
+
+        .shadow-text {
+            text-shadow: 0px 4px 4px #000000, 0px 4px 4px rgba(0, 0, 0, 0.25), 0px 4px 4px rgba(0, 0, 0, 0.25);;
+        }
+
+        .primary-text {
+            color: #E8D09B;
+        }
+
+        .secundary-text {
+            color: #D4B268;
+        }
+
+        .bg-blue {
+            background-color: #000520;
+        }
+
+        .link-primary {
+            color: #D4B268!important;
+        }
+
+        .link-primary:focus, .link-primary:hover {
+            color: #E8D09B!important;
+        }
+        
+        .hero {
+            margin-top: 110px;
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0, 0, 0,0.8)), url("assets/img/background.jpg");
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .servicos {
+            width: 100%;
+            height: 100%;
+            background: url(assets/img/bg-tigolos.jpg);
+            background-repeat: repeat-x;
+            background-position: center;
+            background-size: cover;
+        }
+
+        .localizacao {
+            width: 100%;
+            height: 100%;
+            background: linear-gradient(rgba(0,0,0,0.8), rgba(0, 0, 0,0.8)), url("assets/img/background3.jpg");
+            background-repeat: repeat-x;
+            background-position: center;
+            background-size: cover;
+        }
+
+
+        .navbar-toggler {
+        padding: var(--bs-navbar-toggler-padding-y) var(--bs-navbar-toggler-padding-x);
+        font-size: var(--bs-navbar-toggler-font-size);
+        line-height: 1;
+        color:#ffffff;
+        background-color:  #D4B268;
+        border: var(--bs-border-width) solid var(--bs-navbar-toggler-border-color);
+        border-radius: var(--bs-navbar-toggler-border-radius);
+        transition: var(--bs-navbar-toggler-transition);
+        }
+
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg bg-blue fixed-top">
+            <div class="container-fluid">
+                
+                <a href="#" class="navbar-brand link-primary fs-6">
+                    <img src="assets/img/logo-dourado.png" alt="Logo Salão kloppel" width="200" height="100" 
+                    class="img-fluid d-inline-block align-text-center"> 
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
+                <div class="collapse navbar-collapse justify-content-end " id="collapsibleNavbar">
+                    <ul class="navbar-nav ">
+                        <li class="nav-item "> 
+                            <a class="nav-link link-primary shadow-text" href="#"><img src="assets/img/instagram.png"  width="30" height="30"  alt="Logo Instagram">Instagram</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-primary shadow-text" href="#"><img src="assets/img/whatsapp.png"  width="30" height="30"  alt="Logo Whatsapp">Whatsapp</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link link-primary shadow-text" href="#"><img src="assets/img/facebook.png" alt="Logo Facebook"> Facebook</a>
+                        </li>
+                    </ul>
+                </div>
+                
+            </div>
+        </nav>
+    </header>
+
+    <section class="hero">
+        <div class="container-fluid row justify-content-center">
+            <div class="col-12 w-75 mt-5 pt-5 text-center">
+        
+                <h1 class="primary-text display-4 fw-bold shadow-text ">NÃO VENDEMOS APENAS CORTE DE CABELO MAS SIM EXPERIENCIA
+                </h1>
+        
+                <h2 class="secundary-text display-6 fw-normal  pt-4 shadow-text">Aqui no salão kloppel proporcionamos um grande
+                 estilo com experiencia</h2>
+        
+                <h5 class="secundary-text shadow-text">Atendemos por ordem de chegada</h5>
+        
+                <img class="pt-5" src="assets/img//lampada-sem-fundo.png" alt="Lampanda de barbearia">
+        
+                <br>
+        
+                <img class="img-fluid pt-5" src="assets/img/Line 1.png" alt="Linha">
+            </div>
+        
+        </div>
+    </section>
+        
+    <section class="servicos">
+        <div class="container-fluid text-center">
+            <h1 class="display-4 shadow-text primary-text fw-bold text-uppercase pt-4">Nossos serviços</h1>
+        
+        <div class="row flex-lg-row flex-sm-column  pt-5">
+            <div class="col-lg-4 col-sm-12 pb-2">
+                <img class="img-fluid" src="assets/img/Group5-5.png" alt="Serviço prestado corte com maquina">
+                </div>
+
+                <div class="col-lg-4 col-sm-12 pb-2">
+                    <img class="img-fluid" src="assets/img/Group6-6.png" alt="Serviço prestado corte com tesoura">
+                </div>
+
+                <div class="col-lg-4 col-sm-12 pb-2">
+                    <img class="img-fluid" src="assets/img/Group7-7.png" alt="Serviço prestado barba feita na navalha">
+                </div>
+            </div>
+        
+            <h1 class="primary-text dispay-6 shadow-text pt-5">Oferecemos melhores serviços com qualidade na execução</h1>
+        
+            <img class="img-fluid pt-3" src="assets/img/bigode.png" alt="Bigode">
+
+            <br>
+
+            <img class="img-fluid pt-3" src="assets/img/Line 1.png" alt="Linha">
+        </div>
+    </section>
+
+    <section class="sobre-mim">
+        <div class="container-fluid text-center pt-4 ">
+
+            <div class="sobre d-flex justify-content-center gap-4">
+                <img class="img-fluid" src="assets/img/homem-3-white.png" alt="icone homem com barba">
+                
+                <h1 class="display-4 shadow-text primary-text fw-bold text-uppercase pt-4">Sobre mim</h1>
+                
+                <img class="img-fluid" src="assets/img/homem-3-white.png" alt="icone homem com barba">
+            </div>
+
+            <div class="row flex-lg-row flex-sm-column pt-5">
+                <div class="col-lg-5 col-sm-12">
+                    <img class="img-fluid shadow" src="assets/img/guilherme-kloppel.png" alt="">
+                </div>
+
+                <div class="col-lg-6 col-sm-12 primary-text me-1">
+                    <h1 class="shadow-text">Olá, sou Guilherme Rodrigo Klöppel Miranda.</h1>
+                    <p class="secundary-text shadow-text">Venho de uma familia que todos são barbeiros, e eu segui o mesmo caminho.
+                    </p>
+                    <p class="secundary-text shadow-text" > a 8 anos como barbeiro, possuo diploma e varias habilidades!
+                    Amo o que eu faço e fico extremamente feliz quando meus clientes saiam sastisfeitos com o resultado do meu trabalho.</p>
+                    <p class="secundary-text shadow-text">Meu foco é sempre na perfeição, faço o maximo para ter o melhor resultado, do jeito que o cliente espera. </p>
+                    <p class="secundary-text shadow-text">Atendo todos o tipos de clientes e todas as faixas etárias. </p>
+                </div>
+            </div>
+
+            <div class="row flex-lg-row flex-sm-column pt-5 pb-2">
+                <div class="col-lg-4 col-sm-12 pb-2">
+                    <img class="img-fluid img-thumbnail w-50 shadow" src="assets/img/guilherme-cliente.jpg" alt="">
+                </div>
+
+                <div class="col-lg-4 col-sm-12 pb-2">
+                    <img class="img-fluid img-thumbnail w-50 shadow" src="assets/img/guilherme-cliente2.jpg" alt="">
+                </div>
+
+                <div class="col-lg-4 col-sm-12">
+                    <img class="img-fluid img-thumbnail w-50 shadow" src="assets/img/guilherme-sp.jpg" alt="">
+                </div>
+            </div>
+
+            <img class="img-fluid" src="assets/img/Line 1.png" alt="Linha">
+            
+            
+        </div>
+    </section>
+
+    <section class="localizacao pb-4">
+        
+        <div class="onda pb-5">
+            <img class="img-fluid" src="assets/img/onda.png" alt="">
+        </div>
+
+        <div class="container-fluid">
+    
+            <div class="row flex-lg-row flex-sm-column pt-4">
+                <div class="col-lg-6 col-sm-12 text-center pb-5">
+                    <h1 class="primary-text display-4 fw-bold shadow-text">Localizado em Blumenau-SC</h1>
+                    <h1 class="secundary-text shadow-text">R. 4 de Fevereiro, 255 - Itoupava Norte</h1>
+                    <h5 class="secundary-text shadow-text">Atrás do madrugadão lanches</h5>
+                    <h5 class="secundary-text shadow-text">Temos lugar para estacionar, rua tranquila</h5>
+                </div>
+
+                <div class="col-lg-6 col-sm-12 pb-5 text-center">
+                    <h1 class="primary-text display-5 fw-semibold shadow-text">Horario de atendimento</h1>
+                    <p class="secundary-text shadow-text"><strong>Segunda-feira:</strong> 07:00 até 18:30</p>
+                    <p class="secundary-text shadow-text"><strong>Terça-feira:</strong> 07:00 até 18:30</p>
+                    <p class="secundary-text shadow-text"><strong>Quarta-feira:</strong> 07:00 até 18:30</p>
+                    <p class="secundary-text shadow-text"><strong>Quinta-feira:</strong> 07:00 até 18:300</p>
+                    <p class="secundary-text shadow-text"><strong>Sexta-feira:</strong> 07:00 até 18:30</p>
+                    <p class="secundary-text shadow-text"><strong>Sábado: </strong>07:00 até 12:00</p>
+                    <h5 class="primary-text shadow-text">Atendemos por ordem de chegada</h5>
+                </div>
+
+                <div class="col-12 text-center">
+                    <iframe class="img-fluid" src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14234.208917039397!2d-49.0809713!3d-26.8859639!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xa525d6793bbbe07b!2sSal%C3%A3o%20Kloppel!5e0!3m2!1sen!2sbr!4v1666359484420!5m2!1sen!2sbr" width="600" height="550" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container-fluid pt-3">
+            <div class="row">
+
+                <div class="col-4 text-center">
+                    <img class="img-fluid w-50" src="assets/img/logo-dourado.png" alt="">
+                    <h1 class="text-light fst-italic fw-normal fs-6">Todos os estilos. Uma experiencia.</h1>
+                    
+                </div>
+
+                <div class="col-4 text-center d-flex flex-column justify-content-center">
+                    <img class="img-fluid" src="assets/img/linha-vertical.png" alt="Logo Dourado Salão kloppel">
+                    <p class="text-light fs-6">©Salão Klöppel - 2022 - Todos os direitos reservados.</p>
+                </div>
+
+                <div class="col-4 text-center">
+                    <img class="img-fluid w-50" src="assets/img/logo-dourado.png" alt="Logo Dourado Salão kloppel">
+                    
+                    <h1 class="text-light fw-normal fst-italic fs-6">Tudo sobre qualidade.</h1>
+                    
+                   
+                </div>
+            </div>
+        </div>
+    </footer>
+    
+
+
+    <!-- JavaScript Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+</body>
+</html>
